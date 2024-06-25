@@ -1,0 +1,524 @@
+@media(max-width: 1200px){
+    .container-1{
+    height: 1707px;
+    }
+    .container-1 .bottom{
+        height: 1250px;
+    }
+    .container-1 .bottom .img-text-1 .img{
+        width: 100%;     
+        height: 500px;
+    }
+    .container-1 .bottom .img-text-2 .img{
+        width: 100%;    
+        height: 900px;
+    }
+    .container-3 .brands .logo img{
+        /* height: auto; */
+        height: 25%;
+    }
+    .container-3 .brands .logo:first-child img{
+        height: 25%;
+    }
+    .container-3 .brands .logo:last-child img{
+        height: 60%;
+    }
+    .container-4 .img-area img{
+        width: 19%;
+    }
+    .bottom-container form{
+        width: 40%;
+        height: 50%;
+    }
+    .bottom-container form h3{
+        font-size: 35px;
+    }
+    .bottom-container form span{
+        font-size: 22px;
+    }
+    .bottom-container form .box input::placeholder{
+        font-size: 22px;
+    }
+    .bottom-container form .box button{
+        font-size: 22px;
+    }
+    .bottom-container .address{
+        width: 40%;
+        height: 50%;
+    }
+    .bottom-container .address a{
+        font-size: 20px;
+        width: 82%;
+    }
+    .bottom-container .address .icons{
+        font-size: 20px;
+    }
+    .bottom-container .address p{
+        font-size: 22px;
+    }
+}
+@media(max-width: 980px){
+    header{
+        height: 120px;
+    }
+    header .logo{
+        width: 25%;
+    }
+    .container-0{
+        height: 850px;
+    }
+    .container-0 .image{
+        height: 85%;
+        width: 75%;
+    }
+    .container-1{
+    height: 1707px;
+    }
+    .container-1 .bottom{
+        height: 1250px;
+    }
+    .container-1 .bottom .img-text-1 .img{
+        width: 100%;     
+        height: 500px;
+    }
+    .container-1 .bottom .img-text-2 .img{
+        width: 100%;    
+        height: 900px;
+    }
+    .container-2{
+        height: 900px;
+    }
+    .container-2 .main-content{
+        width: 95%;
+        height: 80%;
+    }
+    .container-2 .main-content .text-content{
+        height: 30%;
+    }
+    .container-2 .main-content .text-content a{
+        width: 17%;
+    }
+    .container-3 .brands{
+        width: 100%;
+        height: 70%;
+        /* border: 1px solid green; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-3 .brands .logo{
+        width: 40%;
+        height: 50%;
+    }
+    .container-3 .brands .logo img{
+        /* height: auto; */
+        height: 40%;
+    }
+    .container-3 .brands .logo:first-child img{
+        height: 40%;
+    }
+    .container-3 .brands .logo:last-child img{
+        height: 80%;
+    }
+    .container-4{
+        height: 700px;
+    }
+    .container-4 .img-area{
+        flex-wrap: wrap;
+        height: 70%;
+        width: 90%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .container-4 .img-area img{
+        width: 32%;
+        height: 48%;
+    }
+    .container-4 .img-area img:last-child{
+        display: block;
+    }
+    .bottom-container{
+        height: 600px;
+        flex-direction: column;
+    }
+    .bottom-container form{
+        width: 90%;
+        height: 35%;
+    }
+    .bottom-container form span{
+        font-size: 22px;
+    }
+    .bottom-container form .box{
+        margin-top: 5%;
+    }
+    .bottom-container form .box input::placeholder{
+        font-size: 22px;
+    }
+    .bottom-container form .box button{
+        font-size: 22px;
+    }
+    .bottom-container .address{
+        width: 90%;
+        height: 35%;
+    }
+    .bottom-container .address a{
+        width: 41%;
+        font-size: 18px;
+    }
+    .bottom-container .address .icons{
+        font-size: 22px;
+        margin-top: 5%;
+    }
+    .bottom-container .address p{
+        line-height: 30px;
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 720px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: 250px;
+    }
+    header .social-icons{
+        display: none;
+    }
+    header .logo{
+        width: 100%;
+        height: 60%;
+        justify-content: space-around;
+    }
+    header .book{
+        width: 90%;
+        height: 25%;
+        justify-content: center;
+        border: none;
+        border-top: 1px solid black;
+    }
+    header .book a{
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .container-0{
+        height: 750px;
+    }
+    .container-0 .image{
+        height: 85%;
+        width: 75%;
+    }
+    .container-0 .image{
+        height: 85%;
+        width: 75%;
+    }
+    .container-1{
+        height: 430vh;
+    }
+    .container-1 .top{
+        height: 350px;
+    }
+    .container-1 .top .content-1 h2{
+        font-size: 36px;
+    }
+    .container-1 .top .content-1 p{
+        font-size: 10px;
+    }
+    .container-1 .bottom{
+        flex-direction: column;
+        height: 360vh;
+    }
+    .container-1 .bottom .img-text-content:first-child{
+        height: 38%;
+        width: 100%;
+    }
+    .container-1 .bottom .img-text-content:last-child{
+        height: 62%;
+        width: 100%;
+    }
+    .container-1 .bottom .img-text-1{
+        height: 85%;
+    }
+    .container-1 .bottom .img-text-2{
+        width: 100%;
+        height: 92%;
+    }
+    .container-1 .bottom .img-text-1 .img{
+        height: 70%;
+        width: 100%;
+    }
+    .container-1 .bottom .img-text-2 .img{
+        height: 75%;
+        width: 100%;
+    }
+    .container-1 .bottom .img-text-2 .text{
+        padding-left: 40px;
+    }
+    .container-2{
+        height: 650vh;
+    }
+    .container-2 .main-content{
+        width: 100%;
+        height: 99%;
+    }
+    .container-2 .main-content .text-content{
+        height: 12%;
+    }
+    .container-2 .main-content .text-content a{
+        width: 25%;
+    }
+    .container-2 .main-content .img-text-content-2{
+        height: 88%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container-2 .main-content .img-text-content-2 .container-2-img{
+        width: 100%;
+        height: 37%;
+    }
+    .container-2 .main-content .img-text-content-2 .container-2-img span{
+        width: 90%;   
+    }
+    .container-2 .main-content .img-text-content-2 .container-2-img:nth-child(2){
+        width: 100%;
+        height: 26%;
+    }
+    .container-3 .brands{
+        width: 100%;
+        height: 70%;
+        flex-direction: column;
+    }
+    .container-3 .brands .logo{
+        width: 100%;
+        height: 25%;
+    }
+    .container-3 .brands .logo img{
+        /* height: auto; */
+        height: 50%;
+    }
+    .container-3 .brands .logo:first-child img{
+        height: 50%;
+    }
+    .container-3 .brands .logo:last-child img{
+        height: 90%;
+    }
+    .container-4{
+        height: 900px;
+    }
+    .container-4 .img-area{
+        flex-wrap: wrap;
+        height: 80%;
+        width: 90%;
+        align-items: center;
+    }
+    .container-4 .img-area img{
+        width: 49%;
+        height: 33%;
+    }
+    .bottom-container{
+        height: 600px;
+        flex-direction: column;
+    }
+    .bottom-container form{
+        width: 90%;
+        height: 35%;
+    }
+    .bottom-container form span{
+        font-size: 22px;
+    }
+    .bottom-container form .box{
+        margin-top: 7%;
+    }
+    .bottom-container form .box input::placeholder{
+        font-size: 22px;
+    }
+    .bottom-container form .box button{
+        font-size: 22px;
+    }
+    .bottom-container .address{
+        width: 90%;
+        height: 35%;
+    }
+    .bottom-container .address a{
+        font-size: 18px;
+    }
+    .bottom-container .address .icons{
+        font-size: 22px;
+        margin-top: 7%;
+    }
+    .bottom-container .address p{
+        line-height: 30px;
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 480px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: 250px;
+    }
+    header .social-icons{
+        display: none;
+    }
+    header .logo{
+        width: 100%;
+        height: 60%;
+        justify-content: space-around;
+    }
+    header .book{
+        width: 90%;
+        height: 25%;
+        justify-content: center;
+        border: none;
+        border-top: 1px solid black;
+    }
+    header .book a{
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .container-0{
+        height: 550px;
+    }
+    .container-0 .image{
+        height: 85%;
+        width: 75%;
+    }
+    .container-1{
+        height: 384vh;
+    }
+    .container-1 .top{
+        height: 350px;
+    }
+    .container-1 .top .content-1 h2{
+        font-size: 36px;
+    }
+    .container-1 .top .content-1 p{
+        font-size: 10px;
+    }
+    .container-1 .bottom{
+        flex-direction: column;
+        height: 319vh;
+    }
+    .container-1 .bottom .img-text-content:first-child{
+        height: 48%;
+        width: 100%;
+    }
+    .container-1 .bottom .img-text-content:last-child{
+        height: 52%;
+        width: 100%;
+    }
+    .container-1 .bottom .img-text-1{
+        height: 85%;
+    }
+    .container-1 .bottom .img-text-2{
+        width: 100%;
+        height: 92%;
+    }
+    .container-1 .bottom .img-text-1 .img{
+        height: 70%;
+        width: 100%;
+    }
+    .container-1 .bottom .img-text-2 .img{
+        height: 75%;
+        width: 100%;
+    }
+    .container-1 .bottom .img-text-2 .text{
+        padding-left: 40px;
+    }
+    .container-2{
+        height: 500vh;
+    }
+    .container-2 .main-content{
+        width: 100%;
+        height: 99%;
+    }
+    .container-2 .main-content .text-content{
+        height: 12%;
+    }
+    .container-2 .main-content .text-content a{
+        width: 25%;
+    }
+    .container-2 .main-content .img-text-content-2{
+        height: 88%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container-2 .main-content .img-text-content-2 .container-2-img{
+        width: 100%;
+        height: 37%;
+    }
+    .container-2 .main-content .img-text-content-2 .container-2-img span{
+        width: 90%;   
+    }
+    .container-2 .main-content .img-text-content-2 .container-2-img:nth-child(2){
+        width: 100%;
+        height: 26%;
+    }
+    .container-3 .brands{
+        width: 100%;
+        height: 70%;
+        flex-direction: column;
+    }
+    .container-3 .brands .logo{
+        width: 100%;
+        height: 25%;
+    }
+    .container-3 .brands .logo img{
+        /* height: auto; */
+        height: 50%;
+    }
+    .container-3 .brands .logo:first-child img{
+        height: 50%;
+    }
+    .container-3 .brands .logo:last-child img{
+        height: 90%;
+    }
+    .container-4{
+        height: 750px;
+    }
+    .container-4 .img-area{
+        flex-wrap: wrap;
+        height: 80%;
+        width: 90%;
+        align-items: center;
+    }
+    .container-4 .img-area img{
+        width: 49%;
+        height: 33%;
+    }
+    .bottom-container{
+        height: 600px;
+        flex-direction: column;
+    }
+    .bottom-container form{
+        width: 90%;
+        height: 35%;
+    }
+    .bottom-container form span{
+        font-size: 22px;
+    }
+    .bottom-container form .box{
+        margin-top: 10%;
+    }
+    .bottom-container form .box input::placeholder{
+        font-size: 22px;
+    }
+    .bottom-container form .box button{
+        font-size: 22px;
+    }
+    .bottom-container .address{
+        width: 90%;
+        height: 35%;
+    }
+    .bottom-container .address a{
+        width: 83%;
+        font-size: 18px;
+    }
+    .bottom-container .address .icons{
+        font-size: 22px;
+        margin-top: 10%;
+    }
+    .bottom-container .address p{
+        line-height: 30px;
+        font-size: 22px;
+    }
+}
